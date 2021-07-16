@@ -5,6 +5,10 @@
 
 O **School File Manager** é uma applicação web que pretende facilitar a troca de documentos num contexto escolar, seja teses, artigos, resumos ou exercícios. É constituída por 3 serviços, um serviço API REST, uma interface e um serviço de autenticação. Para que a segurança seja salvaguardada, são utilizadas ferramentas como o [**Json Web Token**](https://jwt.io) e [**OpenSSL**](https://www.openssl.org/). No desenvolvimento da interface utilizamos a ferramenta [**Nicepage**](https://nicepage.com/) e o website [**W3Schools**](https://www.w3schools.com/), a implementação foi efetuada em [**Node.js**](https://nodejs.org/en/). Para persistência de dados utilizamos uma base de dados não relacional implementada em [**MongoDB**](https://www.mongodb.com/)
 
+<p align="center">
+  <img src="https://github.com/luis1ribeiro/School-File-Manager/blob/main/Interface/public/images/login.png">
+</p>
+
 Para correr executar a aplicação é necessário ter instalado o [**NPM**](https://www.npmjs.com/). Basta pelo terminal basta fazer:
 ```cmd
  npm install
@@ -12,7 +16,7 @@ Para correr executar a aplicação é necessário ter instalado o [**NPM**](http
 ```
 Em cada uma das diretorias seguindo a seguinte ordem: Authorization-server -> api-server -> Interface.
 
-### [Relatório](https://github.com/chico2911/School-File-Manager/tree/master/Docs/relatorio.pdf)
+### [Relatório](https://github.com/luis1ribeiro/School-File-Manager/blob/main/report.pdf)
 
 ## Development Team
 
